@@ -20,7 +20,7 @@ class SistemRekomendasiKamera:
 
         self.tambah_kamera("Canon", "1300D", 2016, 18, 5000000)
         self.tambah_kamera("Nikon", "D5300", 2016, 23, 7000000)
-        self.tambah_kamera("Lumix", "GH5", "2019", 26, 15000000)
+        self.tambah_kamera("Lumix", "GH5", 2019, 26, 15000000)
 
     def tambah_kamera(self, Brand, Model, Tahun, Resolusi, Harga):
         kamera = Kamera(Brand, Model, Tahun, Resolusi, Harga)
